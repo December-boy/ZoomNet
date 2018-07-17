@@ -21,7 +21,7 @@ secutively to form our final Zoom-Net. We further shed light on how one
 could resolve ambiguous and noisy object and predicate annotations by
 Intra-Hierarchical trees (IH-tree). 
 
-![figure1](fig/fig1.jpg)
+![figure1](fig/fig1.png)
 
 Given an image above ‘surfer fall from surfboard ’ and its region-of-interests (ROI)
 in (a), traditional methods without mining contextual interactions between object (sub-
@@ -82,6 +82,7 @@ applied to the features obtained from each branch for visual relationship recogn
 ### Spatiality-Context-Appearance Module (SCA-M)
 
 ![SCA_M](fig/fig_modules.png)
+
 The Spatiality-Context-Appearance Module~(SCA-M) hinges on two components:~(i) Contrastive ROI pooling~(b-d), denoted as <ROI, deROI>, which propagates spatiality-aware features f_s, f_o from subject and object into the spatial `palette' of predicate features f_p, and~(ii) Pyramid ROI pooling~(a,e), <ROI, ROI>, which broadcasts the global predicate features f_p to local features f_s, f_o in subject and object branches.
 
 
@@ -111,7 +112,8 @@ Guojun Yin, gjyin91@gmail.com or gjyin@mail.ustc.edu.cn
 ## Citation
 
 If you want to use the code or follow the paper, please cite as followings:
-'''
+
+```
 @inproceedings{gjyin_eccv2018,
 
  author = {Guojun Yin, Lu Sheng, Bin Liu, Nenghai Yu, Xiaogang Wang, Jing Shao, Chen Change Loy},
