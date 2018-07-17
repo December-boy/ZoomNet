@@ -111,7 +111,7 @@ Guojun Yin, gjyin91@gmail.com or gjyin@mail.ustc.edu.cn
 
 ## Citation
 
-If you want to use the code or follow the paper, please cite as followings:
+If you want to use the code (the code will be released soon) or follow the paper, please cite as followings:
 
 ```
 @inproceedings{gjyin_eccv2018,
@@ -125,4 +125,3 @@ If you want to use the code or follow the paper, please cite as followings:
  year = {2018}
 }
 
-The code will be released soon.
