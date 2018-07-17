@@ -83,7 +83,7 @@ applied to the features obtained from each branch for visual relationship recogn
 
 ![SCA_M](fig/fig_modules.png)
 
-The Spatiality-Context-Appearance Module~(SCA-M) hinges on two components:~(i) Contrastive ROI pooling~(b-d), denoted as <ROI, deROI>, which propagates spatiality-aware features f_s, f_o from subject and object into the spatial `palette' of predicate features f_p, and~(ii) Pyramid ROI pooling~(a,e), <ROI, ROI>, which broadcasts the global predicate features f_p to local features f_s, f_o in subject and object branches.
+The Spatiality-Context-Appearance Module (SCA-M) hinges on two components: (i) Contrastive ROI pooling (b-d), denoted as <ROI, deROI>, which propagates spatiality-aware features f_s, f_o from subject and object into the spatial `palette' of predicate features f_p, and (ii) Pyramid ROI pooling (a,e), <ROI, ROI>, which broadcasts the global predicate features f_p to local features f_s, f_o in subject and object branches.
 
 
 ### Intra-Hierarchical Tree (IH-Tree)
